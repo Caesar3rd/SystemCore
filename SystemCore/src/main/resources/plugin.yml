@@ -1,9 +1,0 @@
-name: SystemCore
-version: '1.0-SNAPSHOT'
-main: McSystem.systemCore.SystemCore
-api-version: '1.21'
-prefix: SystemCore
-load: STARTUP
-authors: [Caesar_3 and McSystem]
-description: A simple sperimental plugin for McSystem
-website: mcsystem.net
