@@ -7,3 +7,10 @@ load: STARTUP
 authors: [Caesar_3 and McSystem]
 description: A simple sperimental plugin for McSystem
 website: mcsystem.net
+
+commands:
+       die:
+        description: Kills the player and send him a message
+        usage: /die
+        permission: SystemCore.die
+        permission-message: 'You dont have permission to use this command!'
