@@ -15,7 +15,7 @@ public final class  SystemCore extends JavaPlugin {
     @Override
     public  boolean onCommand(org.bukkit.command.CommandSender sender, org.bukkit.command.Command command, String label, String[] args) {
         // command: /kill, it kills the player and send him a message
-        if (command.getName().equalsIgnoreCase("die")) {
+        if (command.getName().equalsIgnoreCase("kill")) {
             Player p = (Player) sender;
             p.setHealth(0);
             sender.sendMessage("Hai usato i comandi per killarti!");
