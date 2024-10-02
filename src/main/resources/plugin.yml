@@ -9,8 +9,8 @@ description: A simple sperimental plugin for McSystem
 website: mcsystem.net
 
 commands:
-       die:
+       kill:
         description: Kills the player and send him a message
-        usage: /die
-        permission: SystemCore.die
-        permission-message: 'You dont have permission to use this command!'
+        usage: /kill
+        permission: SystemCore.kill
+        permission-message: 'You do not have permission to use this command!'
