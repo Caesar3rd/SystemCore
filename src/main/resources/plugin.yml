@@ -14,3 +14,9 @@ commands:
         usage: /kill
         permission: SystemCore.kill
         permission-message: 'You do not have permission to use this command!'
+
+       Godcommand:
+        description: Makes the player invulnerable
+        usage: /godmode
+        permission: SystemCore.godmode
+        permission-message: 'You do not have permission to use this command!'
